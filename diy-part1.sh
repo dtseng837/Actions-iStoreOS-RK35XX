@@ -18,5 +18,5 @@ sed -i "s/OPENWRT_RELEASE.*/OPENWRT_RELEASE=\"%D %V ${date_version} by ${author}
 
 # 拉取我的软件包仓库
 echo 'src-git xmpackages https://github.com/xiaomeng9597/openwrt-packages2.git;main' >> feeds.conf.default
-echo 'src-git helloworld https://github.com/fw876/helloworld;main' >> feeds.conf.default
-echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages.git;main' >> feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld;master' >> feeds.conf.default
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages.git;master' >> feeds.conf.default
